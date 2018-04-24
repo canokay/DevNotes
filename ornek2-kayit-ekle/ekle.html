@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>Kayıt Ekleme</title>
+</head>
+<body>
+<form name="form1" action="ekle.php" method="post">
+<table border="1">
+ <tr>
+  <td>Ad</td>
+  <td><input type="text" name="ad" /></td> 
+ </tr>
+
+ <tr>
+  <td>Soyadı</td>
+  <td><input type="text" name="soyad" /></td> 
+ </tr>
+ 
+ <tr>
+  <td>Okulu</td>
+  <td><input type="text" name="okul" /></td> 
+ </tr>
+
+ <tr>
+  <td>Bölümü</td>
+  <td><input type="text" name="bolum" /></td> 
+ </tr>
+
+ <tr>
+  <td>Numarası</td>
+  <td><input type="text" name="num" /></td> 
+ </tr>
+
+ <tr>
+  <td>İli</td>
+  <td>
+    <select name="il">
+                  <option>İstanbul
+                  <option>Ankara
+                  <option>İzmir
+                  <option>Ordu
+                  <option>Bursa
+                  <option>Adana
+                  <option>Antalya
+                  <option>Samsun
+    </select>
+  </td> 
+ </tr>
+
+ <tr>
+   <td colspan="2" bgcolor="aqua">
+     <input type="submit" name="kaydet" value="Kaydet" />&nbsp;&nbsp;&nbsp;
+                 <a href="liste.php">Kayıtları Listele</a>
+   </td>
+ </tr>
+
+</table>
+</form>
+
+</body>
+</html>
