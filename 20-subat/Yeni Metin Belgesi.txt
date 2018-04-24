@@ -1,0 +1,33 @@
+
+
+procedure TForm1.Button13Click(Sender: TObject);
+var
+a: string;
+I,x,j,y: Integer;
+begin
+x:=0;
+y:=0;
+a:=Edit8.Text;
+for I :=1 to Memo1.Lines.Count do
+begin
+  //burada a deðiþkenindeki deðer kontrol edilecek if ile
+  for j := 0 to Memo1.Lines[i].Length do
+     begin
+      if blabla:=a then     //blabla her satýrdaki tek tek kontrol if'i
+       begin
+       x=x+1; //kaç adet edit1 harfi var?
+       end;
+       if x>1 then
+       begin
+        y=y+1;   //kaç adet edit1 harfi olan satýr var?
+       end;
+       x:=0; //x'i yeni satýr için sýfýrla.
+  end;  //yeni satýrý kontrol etme for'u.
+end; //tüm satýrlarý kontrol eden for'u.
+Label1.Caption:=strtoint(y);  //label1'e kaç adet harf satýrý var olduðunu yazan kod.
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+Memo1.Lines.Add(Edit1.Text);
+end;

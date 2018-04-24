@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018.04.10 21:06:46.871,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018.04.10 21:07:01.472,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018.04.10 21:15:04.496,D:\delphi-sayfalar\textbox-yollama\Unit1.pas=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018.04.10 21:15:04.496,D:\delphi-sayfalar\textbox-yollama\Unit1.dfm=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018.04.10 21:15:06.156,D:\delphi-sayfalar\textbox-yollama\Unit2.pas=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018.04.10 21:15:06.156,D:\delphi-sayfalar\textbox-yollama\Unit2.dfm=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2018.04.10 21:15:07.181,D:\delphi-sayfalar\textbox-yollama\Project1.dproj=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
