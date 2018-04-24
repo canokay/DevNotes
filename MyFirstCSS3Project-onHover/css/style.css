@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+#wrapper{
+	width:100%;
+	height:500px;
+	background:linear-gradient(to  bottom,#336699,#ffffff);
+	background:-o-linear-gradient(to  bottom,#336699,#ffffff);
+	background:-moz-linear-gradient(to  bottom,#336699,#ffffff);
+}
+/*  to  bottom   aşağı  olur. */
+/*  radial-gradient  yuvarlaktır.*/
+img{
+	width:300px;
+	transition:width 0.2s;/*Efekt  Vermeyi Sağlıyor */
+	border-radius:21px;
+	box-shadow:5px 7px 5px #a0a0a0; 
+}
+img#android{
+	position:absolute;
+	left:50%;
+	margin-left:-150px;
+	margin-top:60px;
+}
+img#apple{
+	position:absolute;
+	margin-left:300px;
+	top:100px;
+	transform:rotate(-10deg);
+}
+img#phone{
+	position:absolute;
+	right:300px;
+	top:100px;
+	transform:rotate(10deg);
+}
+img:hover{
+	width:350px;
+	z-index:2;
+}
