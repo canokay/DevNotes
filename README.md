@@ -1,2 +1,3 @@
-# DevNotes
-All My Developer Notes
+# Python Notes
+
+1. Hello World
